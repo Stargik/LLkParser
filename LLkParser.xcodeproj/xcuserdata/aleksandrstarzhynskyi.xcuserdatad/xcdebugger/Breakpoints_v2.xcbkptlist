@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "63B2A10E-5C39-4DF3-B805-C11D3603AA33"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3319BDEC-4099-4B1C-955C-5C5A7329ABAD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LLkParser/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "206"
+            endingLineNumber = "206"
+            landmarkName = "first(k, grammar, nonterminals, terminals, firsts, firstsCount)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0262BAE7-6E98-44E8-ABF0-3C1B1847100A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LLkParser/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "getWord(k, m, i, l, word, nonterminals, nonterminalsCount, firsts, firstsCount, tmpFirstsCount, sequence)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D05B8177-8552-42C3-8882-3545324A26B0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LLkParser/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
+            landmarkName = "getWord(k, m, i, l, word, nonterminals, nonterminalsCount, firsts, firstsCount, tmpFirstsCount, sequence)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE06FCD2-08EF-43AD-BFB5-110FF4E5AD2F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LLkParser/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "218"
+            endingLineNumber = "218"
+            landmarkName = "first(k, grammar, nonterminals, terminals, firsts, firstsCount)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7CB095E9-D9E7-4E28-AD47-BDA8298F4E7E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LLkParser/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "isWordExist(words, wordsCount, word, len)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "7CB095E9-D9E7-4E28-AD47-BDA8298F4E7E - f384f64dbdd1a31d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "isWordExist"
+                  moduleName = "LLkParser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrstarzhynskyi/Repositories/Git/GitHub/LLkParser/LLkParser/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "7CB095E9-D9E7-4E28-AD47-BDA8298F4E7E - f384f64dbdd1a2df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "isWordExist"
+                  moduleName = "LLkParser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrstarzhynskyi/Repositories/Git/GitHub/LLkParser/LLkParser/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "7CB095E9-D9E7-4E28-AD47-BDA8298F4E7E - f384f64dbdd1a2df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "isWordExist"
+                  moduleName = "LLkParser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrstarzhynskyi/Repositories/Git/GitHub/LLkParser/LLkParser/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6CE62851-5116-4BDB-96AB-7B31A801C067"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LLkParser/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "isWordExist(words, wordsCount, word, len)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "606E28D3-BBDE-4788-A2DA-3B89B5AFCFF7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LLkParser/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
+            landmarkName = "getWord(k, m, i, l, word, nonterminals, nonterminalsCount, firsts, firstsCount, tmpFirstsCount, sequence)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "606E28D3-BBDE-4788-A2DA-3B89B5AFCFF7 - 3e58abe6902c47e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "getWord"
+                  moduleName = "LLkParser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrstarzhynskyi/Repositories/Git/GitHub/LLkParser/LLkParser/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "776">
+               </Location>
+               <Location
+                  uuid = "606E28D3-BBDE-4788-A2DA-3B89B5AFCFF7 - 3e58abe6902c47c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "getWord"
+                  moduleName = "LLkParser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrstarzhynskyi/Repositories/Git/GitHub/LLkParser/LLkParser/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "776">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A3A990EE-1DBD-4B91-A09C-E1FE8371E6C6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LLkParser/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "isWordExist(words, wordsCount, word, len)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "A3A990EE-1DBD-4B91-A09C-E1FE8371E6C6 - f384f64dbdd1a2be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "isWordExist"
+                  moduleName = "LLkParser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrstarzhynskyi/Repositories/Git/GitHub/LLkParser/LLkParser/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "A3A990EE-1DBD-4B91-A09C-E1FE8371E6C6 - f384f64dbdd1a270"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "isWordExist"
+                  moduleName = "LLkParser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrstarzhynskyi/Repositories/Git/GitHub/LLkParser/LLkParser/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "236">
+               </Location>
+               <Location
+                  uuid = "A3A990EE-1DBD-4B91-A09C-E1FE8371E6C6 - f384f64dbdd1a270"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "isWordExist"
+                  moduleName = "LLkParser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrstarzhynskyi/Repositories/Git/GitHub/LLkParser/LLkParser/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "240">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6E2D997C-11E4-4347-AF27-859361C82D67"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LLkParser/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "isWordExist(words, wordsCount, word, len)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "38174902-FFCC-4DC4-B1C3-CB9E9252649F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LLkParser/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "226"
+            endingLineNumber = "226"
+            landmarkName = "first(k, grammar, nonterminals, terminals, firsts, firstsCount)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A58B7C7-87D2-4417-9B64-CA4EFBAEB052"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LLkParser/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "227"
+            endingLineNumber = "227"
+            landmarkName = "first(k, grammar, nonterminals, terminals, firsts, firstsCount)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "841BB591-FD9F-45FF-A67A-6CBEF5FFEACC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LLkParser/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "228"
+            endingLineNumber = "228"
+            landmarkName = "first(k, grammar, nonterminals, terminals, firsts, firstsCount)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "841BB591-FD9F-45FF-A67A-6CBEF5FFEACC - 7de92be23a233fe8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "first"
+                  moduleName = "LLkParser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrstarzhynskyi/Repositories/Git/GitHub/LLkParser/LLkParser/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "167"
+                  endingLineNumber = "167"
+                  offsetFromSymbolStart = "1044">
+               </Location>
+               <Location
+                  uuid = "841BB591-FD9F-45FF-A67A-6CBEF5FFEACC - 7de92be23a233fe8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "first"
+                  moduleName = "LLkParser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrstarzhynskyi/Repositories/Git/GitHub/LLkParser/LLkParser/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "167"
+                  endingLineNumber = "167"
+                  offsetFromSymbolStart = "1008">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C7C2E42-7DE5-4154-9C56-29F0A5F20C6D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LLkParser/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "237"
+            endingLineNumber = "237"
+            landmarkName = "first(k, grammar, nonterminals, terminals, firsts, firstsCount)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2436C3C7-F644-46A6-9A69-5B23F19B5072"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LLkParser/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "231"
+            endingLineNumber = "231"
+            landmarkName = "first(k, grammar, nonterminals, terminals, firsts, firstsCount)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C514F453-F9C2-42FA-B552-7B938FC4D87A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LLkParser/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "377"
+            endingLineNumber = "377"
+            landmarkName = "follow(k, grammar, nonterminals, terminals, firsts, firstsCount, follows, followsCount)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "C514F453-F9C2-42FA-B552-7B938FC4D87A - 7dc98951d44d924d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "follow"
+                  moduleName = "LLkParser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrstarzhynskyi/Repositories/Git/GitHub/LLkParser/LLkParser/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "280"
+                  endingLineNumber = "280"
+                  offsetFromSymbolStart = "796">
+               </Location>
+               <Location
+                  uuid = "C514F453-F9C2-42FA-B552-7B938FC4D87A - 7dc98951d44d99ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "follow"
+                  moduleName = "LLkParser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrstarzhynskyi/Repositories/Git/GitHub/LLkParser/LLkParser/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "330"
+                  endingLineNumber = "330"
+                  offsetFromSymbolStart = "832">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "85CA7002-178A-495D-80B5-EF79040484C9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LLkParser/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "369"
+            endingLineNumber = "369"
+            landmarkName = "follow(k, grammar, nonterminals, terminals, firsts, firstsCount, follows, followsCount)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23BABDBC-F250-4505-89FA-C1F09F0E641A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LLkParser/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "253"
+            endingLineNumber = "253"
+            landmarkName = "getFollowWord(k, c, i, l, word, nonterminals, nonterminalsCount, firsts, firstsCount, follows, followsCount, tmpFollowsCount, sequence, currentSymbolIndex)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B816DED8-7197-469B-857A-D5F5C626B71B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LLkParser/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "614"
+            endingLineNumber = "614"
+            landmarkName = "main(argc, argv)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "01820C98-7EFE-4F2A-91C1-61D3C35D061C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LLkParser/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "444"
+            endingLineNumber = "444"
+            landmarkName = "mTableOneHelper(grammar, nonterminals, terminals, nonterminalCount, terminalCount, firstFollowTable, firstFollowTableCount)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ABBB0F47-7055-4D1E-8A86-B5FE60A236D2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LLkParser/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "512"
+            endingLineNumber = "512"
+            landmarkName = "llOneAnalyzer(grammar, nonterminals, terminals, nonterminalCount, terminalCount, word, piSequence, piSequenceCount, lexemIndex)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D72E67A-8AA5-4005-AD95-E687E8BB444A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LLkParser/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "503"
+            endingLineNumber = "503"
+            landmarkName = "llOneAnalyzer(grammar, nonterminals, terminals, nonterminalCount, terminalCount, word, piSequence, piSequenceCount, lexemIndex)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "2D72E67A-8AA5-4005-AD95-E687E8BB444A - 3ee8af82cbc368fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "llOneAnalyzer"
+                  moduleName = "LLkParser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrstarzhynskyi/Repositories/Git/GitHub/LLkParser/LLkParser/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "473"
+                  endingLineNumber = "473"
+                  offsetFromSymbolStart = "360">
+               </Location>
+               <Location
+                  uuid = "2D72E67A-8AA5-4005-AD95-E687E8BB444A - 3ee8af82cbc36f24"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "llOneAnalyzer"
+                  moduleName = "LLkParser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrstarzhynskyi/Repositories/Git/GitHub/LLkParser/LLkParser/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "475"
+                  endingLineNumber = "475"
+                  offsetFromSymbolStart = "400">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "82A7D348-8DFC-43FF-9347-54AEA08489F1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LLkParser/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "507"
+            endingLineNumber = "507"
+            landmarkName = "llOneAnalyzer(grammar, nonterminals, terminals, nonterminalCount, terminalCount, word, piSequence, piSequenceCount, lexemIndex)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05412D71-C9C1-4D7A-A9F8-7A7FFC04B6C5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LLkParser/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "466"
+            endingLineNumber = "466"
+            landmarkName = "llOneAnalyzer(grammar, nonterminals, terminals, nonterminalCount, terminalCount, word, piSequence, piSequenceCount, lexemIndex)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "22AF7FF5-69FE-47AC-AFEE-81736C68CF87"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LLkParser/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "467"
+            endingLineNumber = "467"
+            landmarkName = "llOneAnalyzer(grammar, nonterminals, terminals, nonterminalCount, terminalCount, word, piSequence, piSequenceCount, lexemIndex)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "22AF7FF5-69FE-47AC-AFEE-81736C68CF87 - 3ee8af82cbc3683c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "llOneAnalyzer"
+                  moduleName = "LLkParser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrstarzhynskyi/Repositories/Git/GitHub/LLkParser/LLkParser/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "467"
+                  endingLineNumber = "467"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "22AF7FF5-69FE-47AC-AFEE-81736C68CF87 - 3ee8af82cbc3683c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "llOneAnalyzer"
+                  moduleName = "LLkParser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrstarzhynskyi/Repositories/Git/GitHub/LLkParser/LLkParser/main.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "467"
+                  endingLineNumber = "467"
+                  offsetFromSymbolStart = "168">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D7A9215-0132-48F4-8DA0-7A2034C98572"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LLkParser/main.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "474"
+            endingLineNumber = "474"
+            landmarkName = "llOneAnalyzer(grammar, nonterminals, terminals, nonterminalCount, terminalCount, word, piSequence, piSequenceCount, lexemIndex)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
