@@ -36,6 +36,7 @@ void push(struct Stack *stack, char* sequence){
         stack->data[stack->size] = sequence[strlen(sequence) - 1 - i];
         stack->size++;
     }
+    printf("\n");
 }
 
 void pop(struct Stack *stack){
@@ -510,8 +511,12 @@ int llOneAnalyzer(struct Grammar *grammar, char nonterminals[], char terminals[]
             for (int j = 0; j < terminalCount; j++) {
                 if (terminals[j] == currentLexem && mTable[index][j] != -1) {
                     pop(stack);
+                    char nonterminal = nonterminals[index];
+                    printf("%s -> %s", &nonterminal, grammar->productions[mTable[index][j]].resultSequence);
                     if (grammar->productions[mTable[index][j]].resultSequence[0] != EPS) {
                         push(stack, grammar->productions[mTable[index][j]].resultSequence);
+                    }else{
+                        printf("\n");
                     }
                     isRuleFind = 1;
                     piSequence[count] = mTable[index][j];
@@ -564,6 +569,27 @@ int main(int argc, const char * argv[]) {
     char nonterminals[DEFAULT_FIRSTS_COUNT];
     
     readFromFile(fp, grammar, terminals, nonterminals);
+
+    
+    int k = 1;
+    
+    char** firsts[grammar->nonterminalCount];
+    int firstsCount[grammar->nonterminalCount];
+    first(k, grammar, nonterminals, terminals, firsts, firstsCount);
+    
+    char** follows[grammar->nonterminalCount];
+    int followsCount[grammar->nonterminalCount];
+    follow(k, grammar, nonterminals, terminals, firsts, firstsCount, follows, followsCount);
+    
+    char** firstFollowTable[grammar->productionsCount];
+    int firstFollowTableCount[grammar->productionsCount];
+    firstFollowOneHelper(grammar, nonterminals, terminals, firsts, firstsCount, follows, followsCount, firstFollowTable, firstFollowTableCount);
+    
+    int mTable[grammar->nonterminalCount][grammar->terminalCount];
+    mTableOneHelper(grammar, nonterminals, terminals, grammar->nonterminalCount, grammar->terminalCount, mTable, firstFollowTable, firstFollowTableCount);
+    
+    printf("\n");
+    printf("Grammar: \n");
     printf("%d\n", grammar->terminalCount);
     for (int i = 0; i < grammar->terminalCount; i++) {
         char c = terminals[i];
@@ -580,14 +606,11 @@ int main(int argc, const char * argv[]) {
     printf("%d\n", grammar->productionsCount);
     for (int i = 0; i < grammar->productionsCount; i++) {
         char c = grammar->productions[i].currentSymbol;
-        printf("%s -> %s\n", &c, grammar->productions[i].resultSequence);
+        printf("%d: %s -> %s\n", i + 1, &c, grammar->productions[i].resultSequence);
     }
     
-    int k = 1;
-    
-    char** firsts[grammar->nonterminalCount];
-    int firstsCount[grammar->nonterminalCount];
-    first(k, grammar, nonterminals, terminals, firsts, firstsCount);
+    printf("\n");
+    printf("First(%d): \n", k);
     for (int i = 0; i < grammar->nonterminalCount; i++) {
         char nonterminal = nonterminals[i];
         printf("%s: ", &nonterminal);
@@ -597,9 +620,8 @@ int main(int argc, const char * argv[]) {
         printf("\n");
     }
     
-    char** follows[grammar->nonterminalCount];
-    int followsCount[grammar->nonterminalCount];
-    follow(k, grammar, nonterminals, terminals, firsts, firstsCount, follows, followsCount);
+    printf("\n");
+    printf("Follow(%d): \n", k);
     for (int i = 0; i < grammar->nonterminalCount; i++) {
         char nonterminal = nonterminals[i];
         printf("%s: ", &nonterminal);
@@ -609,19 +631,19 @@ int main(int argc, const char * argv[]) {
         printf("\n");
     }
     
-    char** firstFollowTable[grammar->productionsCount];
-    int firstFollowTableCount[grammar->productionsCount];
-    firstFollowOneHelper(grammar, nonterminals, terminals, firsts, firstsCount, follows, followsCount, firstFollowTable, firstFollowTableCount);
+    printf("\n");
+    printf("First(%d) +(%d) Follow(%d): \n", k, k, k);
     for (int i = 0; i < grammar->productionsCount; i++) {
-        printf("%d: ", i);
+        printf("%d: ", i + 1);
         for (int j = 0; j < firstFollowTableCount[i]; j++) {
             printf("%s ", firstFollowTable[i][j]);
         }
         printf("\n");
     }
     
-    int mTable[grammar->nonterminalCount][grammar->terminalCount];
-    mTableOneHelper(grammar, nonterminals, terminals, grammar->nonterminalCount, grammar->terminalCount, mTable, firstFollowTable, firstFollowTableCount);
+
+    printf("\n");
+    printf("M Table: \n");
     printf("   ");
     for (int j = 0; j < grammar->terminalCount; j++) {
         char terminal = terminals[j];
@@ -645,9 +667,11 @@ int main(int argc, const char * argv[]) {
     int piSequenceCount = 0;
     int lexemIndex = 0;
     char word[MAX_WORD_SIZE];
+    printf("\n");
     scanf("%s", word);
     int res = llOneAnalyzer(grammar, nonterminals, terminals, grammar->nonterminalCount, grammar->terminalCount, mTable, word, piSequence, &piSequenceCount, &lexemIndex);
     if (res) {
+        printf("Word is valid. \n");
         printf("pi = <");
         for (int i = 0; i < piSequenceCount; i++) {
              printf(" %d ", piSequence[i] + 1);
