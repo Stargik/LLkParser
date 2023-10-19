@@ -36,7 +36,7 @@ void push(struct Stack *stack, char* sequence){
         stack->data[stack->size] = sequence[strlen(sequence) - 1 - i];
         stack->size++;
     }
-    printf("\n");
+    //printf("\n");
 }
 
 void pop(struct Stack *stack){
@@ -459,6 +459,8 @@ int llOneAnalyzer(struct Grammar *grammar, char nonterminals[], char terminals[]
     int res = 1;
     int count = 0;
     struct Stack *stack = malloc(sizeof(struct Stack));
+    char completeword[MAX_WORD_SIZE];
+    char completewordCount = 0;
     char tempword[1];
     tempword[0] = grammar->startSymbol;
     push(stack, tempword);
@@ -475,6 +477,15 @@ int llOneAnalyzer(struct Grammar *grammar, char nonterminals[], char terminals[]
             int isEpsAvailable = -1;
             for (int j = 0; j < terminalCount; j++) {
                 if (terminals[j] == EPS && mTable[index][j] != -1) {
+                    for (int s = 0; s < completewordCount; s++) {
+                        char c = completeword[s];
+                        printf("%s", &c);
+                    }
+                    for (int s = 0; s < stack->size; s++) {
+                        char c = stack->data[stack->size - 1 - s];
+                        printf("%s", &c);
+                    }
+                    printf(" -> ");
                     isEpsAvailable = j;
                     pop(stack);
                     piSequence[count] = mTable[index][isEpsAvailable];
@@ -496,6 +507,8 @@ int llOneAnalyzer(struct Grammar *grammar, char nonterminals[], char terminals[]
             }
         } else if (index == -1) {
             if (stack->data[stack->size - 1] == currentLexem) {
+                completeword[completewordCount] = stack->data[stack->size - 1];
+                completewordCount++;
                 pop(stack);
                 currentLexemIndex++;
                 currentLexem = word[currentLexemIndex];
@@ -510,13 +523,20 @@ int llOneAnalyzer(struct Grammar *grammar, char nonterminals[], char terminals[]
             int isEpsAvailable = -1;
             for (int j = 0; j < terminalCount; j++) {
                 if (terminals[j] == currentLexem && mTable[index][j] != -1) {
+                    for (int s = 0; s < completewordCount; s++) {
+                        char c = completeword[s];
+                        printf("%s", &c);
+                    }
+                    for (int s = 0; s < stack->size; s++) {
+                        char c = stack->data[stack->size - 1 - s];
+                        printf("%s", &c);
+                    }
+                    printf(" -> ");
                     pop(stack);
-                    char nonterminal = nonterminals[index];
-                    printf("%s -> %s", &nonterminal, grammar->productions[mTable[index][j]].resultSequence);
                     if (grammar->productions[mTable[index][j]].resultSequence[0] != EPS) {
                         push(stack, grammar->productions[mTable[index][j]].resultSequence);
                     }else{
-                        printf("\n");
+                       // printf("\n");
                     }
                     isRuleFind = 1;
                     piSequence[count] = mTable[index][j];
@@ -529,6 +549,15 @@ int llOneAnalyzer(struct Grammar *grammar, char nonterminals[], char terminals[]
             }
             if (!isRuleFind) {
                 if (isEpsAvailable != -1) {
+                    for (int s = 0; s < completewordCount; s++) {
+                        char c = completeword[s];
+                        printf("%s", &c);
+                    }
+                    for (int s = 0; s < stack->size; s++) {
+                        char c = stack->data[stack->size - 1 - s];
+                        printf("%s", &c);
+                    }
+                    printf(" -> ");
                     pop(stack);
                     piSequence[count] = mTable[index][isEpsAvailable];
                     count++;
@@ -555,6 +584,11 @@ int llOneAnalyzer(struct Grammar *grammar, char nonterminals[], char terminals[]
     }
     *piSequenceCount = count;
     *lexemIndex = currentLexemIndex;
+    for (int s = 0; s < completewordCount; s++) {
+        char c = completeword[s];
+        printf("%s", &c);
+    }
+    printf("\n");
     return res;
 }
 
